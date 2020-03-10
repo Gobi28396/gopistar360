@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6166843900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "To verify the Search Functionality with Valid Credentials.",
+        "description": "",
+        "id": "to-validating-search-functionality;to-verify-the-search-functionality-with-valid-credentials.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27622494200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in home page",
+            "match": {
+              "location": "Search.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1373399200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the products name \"nike air max\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nike air max\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Search.user_enters_the_products_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15995715700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click enter button",
+            "match": {
+              "location": "Search.click_enter_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6942915700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To verify the Search Functionality with Valid Credentials.",
+        "description": "",
+        "id": "to-validating-search-functionality;to-verify-the-search-functionality-with-valid-credentials.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28091401000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in home page",
+            "match": {
+              "location": "Search.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 335286100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the products name \"puma shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"puma shoes\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Search.user_enters_the_products_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10754442000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click enter button",
+            "match": {
+              "location": "Search.click_enter_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10020801900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To verify the Search Functionality with Valid Credentials.",
+        "description": "",
+        "id": "to-validating-search-functionality;to-verify-the-search-functionality-with-valid-credentials.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29179122800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in home page",
+            "match": {
+              "location": "Search.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 450643100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the products name \"addidas shoes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addidas shoes\"",
+                  "offset": 30
+                }
+              ],
+              "location": "Search.user_enters_the_products_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6113909800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click enter button",
+            "match": {
+              "location": "Search.click_enter_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validating Search functionality",
+    "description": "",
+    "id": "to-validating-search-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/One.feature",
+    "tags": []
+  }
+]
